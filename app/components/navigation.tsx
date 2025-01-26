@@ -15,8 +15,8 @@ export default function Navigation({ textColor = 'white' }: NavigationProps) {
     const [visible, setVisible] = useState(true);
     const router = useRouter();
     
-    const textColorClass = `text-${textColor}`;
-    const hoverColorClass = `hover:text-${textColor === 'white' ? 'gray-300' : 'gray-600'}`;
+    const textColorClass = textColor === 'black' ? 'text-[#000000]' : 'text-white';
+    const hoverColorClass = textColor === 'white' ? 'hover:text-gray-300' : '';
 
     useEffect(() => {
         const handleScroll = () => {
