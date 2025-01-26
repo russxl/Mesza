@@ -97,15 +97,7 @@ export default function Desk() {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="text-center mb-16">
-          <a
-            className="rounded-full inline-flex items-center justify-center bg-black text-white gap-2 hover:bg-gray-800 text-lg h-12 px-8"
-            href="/products"
-          >
-            View All Products
-          </a>
-        </div>
+      
       </main>
       
       <div className="mt-auto mb-8">
